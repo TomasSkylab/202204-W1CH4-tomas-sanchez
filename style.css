@@ -3,26 +3,39 @@ html {
     
 }
 
+
 ul {
     list-style: none;
 }
 body {
     background-color: rgba(255, 123, 0, 0.885);
     margin: 0;
-   
-}
-
+   }
 
 .purchased-items__icon{
     height: 25px;
+
+body {
+    background-color: rgba(255, 123, 0, 0.885);
+}
+
+main{
+    background-color: rgba(255, 123, 0, 0.885);
+}
+
+.purchased__icon__plus {
+    height: 40px;
+
 }
 
 .list-items__list__items__icon{
     height: 25px;
 }
+  
 .purchased-items {
     background-color: rgba(255, 115, 0, 0.981);
 }
+
 
 .list-items {
     background-color: orange;
@@ -38,6 +51,7 @@ body {
 .list-items__list__items__item,
 .list-items__list__items__price{
     display: inline;
+
 }
 
 .list-items__list__items {
@@ -59,4 +73,10 @@ nav.navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+
+.list-items__list {
+    padding: 0;
 }
