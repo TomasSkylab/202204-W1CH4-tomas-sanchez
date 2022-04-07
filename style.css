@@ -1,15 +1,62 @@
 html {
     font-family: "Nunito", sans-serif;
+    
 }
 
-.purchased__icon__plus {
-    height: 50px;
+ul {
+    list-style: none;
+}
+body {
+    background-color: rgba(255, 123, 0, 0.885);
+    margin: 0;
+   
 }
 
-.purchased__icon__xmark {
+
+.purchased-items__icon{
     height: 25px;
 }
 
+.list-items__list__items__icon{
+    height: 25px;
+}
+.purchased-items {
+    background-color: rgba(255, 115, 0, 0.981);
+}
+
+.list-items {
+    background-color: orange;
+}
+
+.list-price {
+    background-color: orange;
+}
 .menu {
-    background-color: aquamarine;
+    background-color: rgb(96, 131, 244);
+}
+
+.list-items__list__items__item,
+.list-items__list__items__price{
+    display: inline;
+}
+
+.list-items__list__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items__list {
+    padding: 0;
+}
+
+
+nav.navigation {
+    display: flex;
+
+}
+
+.purchased-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

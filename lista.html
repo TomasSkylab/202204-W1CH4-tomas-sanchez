@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/style.css" />
+        <link rel="icon" href="/carritp.jpeg">
 
         <title>Lista de la compra</title>
     </head>
@@ -21,64 +22,53 @@
         </header>
         <main>
             <section class="purchased-items">
+                <div class="purchased_items__item" >
                 <img
-                    class="purchased__icon__plus"
-                    src="/circle-plus-solid.svg"
-                    alt="circle-plus"
-                />
-                <p class="purchased__text">2/3 comprados</p>
+                class="purchased-items__icon" src="/circle-plus-solid.svg" alt="circle-plus-icon"/>
+                </div>
+                <div class="purchased_items__item" >
+                <p class="purchased-items__quantity">2/3 comprados</p>
+                </div>
             </section>
             <section class="list-items">
-                <ul class="list__items">
-                    <li>
-                        <input
-                            class="list__items__checkbox"
-                            type="checkbox"
-                        /><label for="name">Pan</label>
-                    </li>
-                    <li>
-                        <input
-                            class="list__items__checkbox"
-                            type="checkbox"
-                        /><label for="name">Azúcar</label>
-                    </li>
-                    <li>
-                        <input
-                            class="list__items__checkbox"
-                            type="checkbox"
-                        /><label for="name">Leche</label>
-                    </li>
-                </ul>
-                <ul class="list__price">
-                    <li class="list__item__price">
-                        0.75€
-                        <img
-                            class="purchased__icon__xmark"
-                            src="/xmark-solid.svg"
-                            alt="circle-plus"
-                        />
+                <ul class="list-items__list">
+                    <li class="list-items__list__items" >
+                        <div>
+                            <input class="list-items__list__items_checkbox" type="checkbox"/>
+                            <p class="list-items__list__items__item" >Pan</p>
+                        </div>
+                        <div>
+                            <p class="list-items__list__items__price" >0.75€</p>
+                            <img class="list-items__list__items__icon" src="/xmark-solid.svg" alt="circle-plus">
+                        </div>
                     </li>
 
-                    <li class="list__item__price">
-                        0
-                        <img
-                            class="purchased__icon__xmark"
-                            src="/xmark-solid.svg"
-                            alt="circle-plus"
-                        />
+                   <li class="list-items__list__items" >
+                        <div>
+                            <input class="list-items__list__items_checkbox" type="checkbox"/>
+                            <p class="list-items__list__items__item" >Azúcar</p>
+                        </div>
+                        <div>
+                            <p class="list-items__list__items__price" >0€</p>
+                            <img class="list-items__list__items__icon" src="/xmark-solid.svg" alt="circle-plus">
+                        </div>
                     </li>
 
-                    <li class="list__item__price">
-                        1.20€<img
-                            class="purchased__icon__xmark"
-                            src="/xmark-solid.svg"
-                            alt="circle-plus"
-                        />
+                   <li class="list-items__list__items" >
+                        <div>
+                            <input class="list-items__list__items_checkbox" type="checkbox"/>
+                            <p class="list-items__list__items__item" >Leche</p>
+                        </div>
+                        <div>
+                            <p class="list-items__list__items__price" >1.20€</p>
+                            <img class="list-items__list__items__icon" src="/xmark-solid.svg" alt="circle-plus">
+                        </div>
                     </li>
-                </ul>
+                    
+                     </ul>
             </section>
             <ul class="list-price">
-                <li class="list__total__price">1.95€</li>
+                <li class="list">1.95€</li>
             </ul>
         </main>
     </body>
