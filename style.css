@@ -2,8 +2,12 @@ html {
     font-family: "Nunito", sans-serif;
 }
 
-.icon-plus {
+.purchased__icon__plus {
     height: 50px;
+}
+
+.purchased__icon__xmark {
+    height: 25px;
 }
 
 .menu {
